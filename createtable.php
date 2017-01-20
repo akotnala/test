@@ -1,8 +1,8 @@
 <?php
  // DB connection info
  $host = "tcp:al-test-app-db-server-01.database.windows.net,1433";
- $user = "ak-test-app-01-deploy";
- $pwd = "tomato450";
+ $user = "user01";
+ $pwd = "google123456&";
  $db = "ak-test-app-db-01";
  try{
      $conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
